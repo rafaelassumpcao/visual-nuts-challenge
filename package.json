@@ -1,0 +1,24 @@
+{
+  "name": "visual-nuts",
+  "version": "1.0.0",
+  "description": "visual nuts challenge for a Backend position",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs",
+    "test:cov": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --watchAll"
+  },
+  "keywords": [
+    "challenge",
+    "backend",
+    "visual-nuts"
+  ],
+  "author": "Rafael Assumpcao",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3"
+  }
+}
